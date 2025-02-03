@@ -1,0 +1,89 @@
+
+.first-container{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    padding-top:100px;
+    text-align: center;
+    height:100vh;
+}
+body{
+    margin:0;
+}
+#mountain{
+    margin-top: 132px;
+    margin-left: 50px;
+}
+#cloud1{
+    position: absolute;
+    left:100px;
+    top:150px;
+}
+#cloud2{
+    position: relative;
+    left:50px;
+    top:-150px;
+}
+#sacramento-regular {
+    font-family: "Sacramento", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:5rem;
+    color: #2b5d63;
+  }
+  span{
+   color:blanchedalmond;
+  }
+  #pro{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#2b5d63;
+  }
+  #my{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+  }
+  .middle{
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color:#2b5d63;
+  }
+  #id1{
+    margin-top: 15px;
+  }
+  h6{
+    margin-top: 20px;
+  }
+  .skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+  }
+  .card{
+    border: solid black;
+    border-radius: 2%;
+    padding:5px;
+  }
+  .card-img-top{
+    border-radius: 2%;
+  }
+  .card-title,.card-text,.btn {
+    padding-left: 5px;
+  }
+  hr{
+    border:dotted;
+    margin-top: 50px;
+  }
+  @media(min-width:481px) and (max-width:1200px){
+    body
+    {
+      .first-container{
+        height:35vh;
+      }
+      #mountain{
+        margin-left:100px;
+      }
+    }
+  }
